@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div className="container-fluid ms-5 my-3">
                 <Link to='/' className="navbar-brand d-flex align-items-center">
                     <img
                         src="https://www.kindpng.com/picc/m/7-70674_thailand-school-logo-school-logos-free-download-hd.png"
-                        alt="" width="50" height="44"/>
+                        alt="" width="60" height="54"/>
                     <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
