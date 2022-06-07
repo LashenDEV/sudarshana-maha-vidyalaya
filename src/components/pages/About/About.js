@@ -1,14 +1,21 @@
 import React from "react";
-import mision from "../../images/about/mision.jpg";
-import vision from "../../images/about/vision.jpg";
-import crest from "../../images/about/crest.png";
-import goals from "../../images/about/goals.jpg";
-import flag from "../../images/about/flag.png";
-import map from "../../images/about/map.jpg"
-import "./About.css";
+import "./About.css"
 
 function About() {
-  return (
+    return (
+        
+        <div class="card mb-3">
+            <img src="../About/img/misson.jpg" class="card-img-top" alt="..."/>
+                <div class="card-body">
+                    <h5 class="card-title"> Our Misson </h5>
+                    <p class="card-text">"Creating a student generation with a full-blown humanitarian, balanced personality that can succeed in creative thinking and talent."</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+         </div>
+        
+    )
+    
+}
 
     <div class="container" data-aos="fade-up">  {/* mission section */}
       <div class="row about-cols">
