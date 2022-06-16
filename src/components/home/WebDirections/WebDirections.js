@@ -25,22 +25,22 @@ function WebDirections() {
                             <h1>USEFUL LINKS</h1>
                             <div className="py-2" style={{width: "300px"}}>
                                 <div className="wrapper link my-4">
-                                    <a href="#"><span>E-Thaksalawa</span></a>
+                                    <a href="https://www.e-thaksalawa.moe.gov.lk/"><span>E-Thaksalawa</span></a>
                                 </div>
                                 <div className="wrapper link my-4">
-                                    <a href="#"><span>Text Book Download</span></a>
+                                    <a href="http://www.edupub.gov.lk/BooksDownload.php"><span>Text Book Download</span></a>
                                 </div>
                                 <div className="wrapper link my-4">
-                                    <a href="#"><span>Teachers Guide</span></a>
+                                    <a href="http://nie.lk/seletguide"><span>Teachers Guide</span></a>
                                 </div>
                                 <div className="wrapper link my-4">
-                                    <a href="#"><span>Syllabus Download</span></a>
+                                    <a href="https://govdoc.lk/category/syllabus"><span>Syllabus Download</span></a>
                                 </div>
                                 <div className="wrapper link my-4">
-                                    <a href="#"><span>Ministry Of Education</span></a>
+                                    <a href="https://moe.gov.lk/"><span>Ministry Of Education</span></a>
                                 </div>
                                 <div className="wrapper link my-4">
-                                    <a href="#"><span>Examination</span></a>
+                                    <a href="https://www.doenets.lk/"><span>Examination</span></a>
                                 </div>
                                 <div className="wrapper link My-2">
                                     <a href="#"><span>Data Management Portal</span></a>
