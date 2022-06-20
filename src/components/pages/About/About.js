@@ -1,11 +1,13 @@
 import React from "react";
-import mision from "../../images/about/mision.jpg";
-import vision from "../../images/about/vision.jpg";
+import mission from "../../images/about/mission.png";
+import vission from "../../images/about/vission.jpg";
 import crest from "../../images/about/crest.png";
 import goals from "../../images/about/goals.jpg";
 import flag from "../../images/about/flag.png";
 import map from "../../images/about/map.jpg";
-import about from "../../images/about/about.png";
+import about from "../../images/about/about.jpg";
+import school from "../../images/about/school.jpg";
+import song from "../../images/about/song.jpg";
 import "./About.css";
 
 function About() {
@@ -14,7 +16,7 @@ function About() {
       <div className="card text-white">
         <div w-100 style={{ height: "500px" }}>
           <img
-            src="https://royalcollege.lk/wp-content/uploads/2021/07/Main-Hall-wide-shot.jpg"
+            src={about}
             class="card-img"
             alt="..."
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -53,15 +55,15 @@ function About() {
             <div className="card shadow p-3 mb-5 bg-body rounded h-100">
               <div className="card-body">
                 <div className="d-flex justify-content-center mb-4">
-                <div style={{ width:"300px" , height:"200px" }}>
-                 <img
-                    className="align-items-center"
-                    src="https://royalcollege.lk/wp-content/uploads/2021/07/Life-at-Reid-avenue-2.jpg"
-                    alt=""
-                    width="100%"
-                    height="100%"
-                  /></div>
-                 
+                  <div style={{ width: "300px", height: "200px" }}>
+                    <img
+                      className="align-items-center"
+                      src={school}
+                      alt="school"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
                 </div>
                 <h3 className="d-flex justify-content-center align-items-center py-3">
                   School Profile
@@ -70,7 +72,7 @@ function About() {
                   <b>School Name: </b> Sudarshana maha Vidyalaya <br></br>
                   <br></br>
                   <b> Address :</b> Passara, Badulla <br></br>
-                  <br></br> 
+                  <br></br>
                   <b> Phone Number :</b> +9435-3242555 <br></br>
                   <br></br>
                   <b> Email Address :</b> sudarshanamv@info.com <br></br>
@@ -107,15 +109,15 @@ function About() {
             <div className="card shadow p-3 mb-5 bg-body rounded h-100">
               <div className="card-body">
                 <div className="d-flex justify-content-center mb-4">
-                <div style={{ width:"300px" , height:"200px" }}>
-                <img
-                    className="align-items-center"
-                    src="https://www.lankaxpress.com/wp-content/uploads/2021/12/Sri-Lanka-School-Education-News.jpg"
-                    alt=""
-                    width="100%"
-                    height="100%"
-                  /></div>
-                  
+                  <div style={{ width: "300px", height: "200px" }}>
+                    <img
+                      className="align-items-center"
+                      src={song}
+                      alt="Song"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
                 </div>
                 <h3 className="d-flex justify-content-center align-items-center py-3">
                   School Song
@@ -162,6 +164,8 @@ function About() {
               </div>
             </div>
           </div>
+          {/* end school song section */}
+
           <div className="col-md-4">
             <div className="card shadow p-3 mb-5 bg-body rounded h-100">
               <div className="card-body  d-md-flex">
@@ -170,29 +174,29 @@ function About() {
                     <h3 className="d-flex justify-content-center align-items-center">
                       SCHOOL CREST
                     </h3>
-                    <div style={{ width:"300px" , height:"250px" }}>
-                    <img
-                      className="align-items-center"
-                      src="http://localhost:3000/static/media/crest.e420cd065a61cdd696ad.png"
-                      alt=""
-                      width="100%"
-                      height="100%"
-                    /></div>
-                    
+                    <div style={{ width: "300px", height: "250px" }}>
+                      <img
+                        className="align-items-center"
+                        src={crest}
+                        alt="School Cheast"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
                   </div>
                   <div className="mb-4 p-4">
                     <h3 className="d-flex justify-content-center align-items-center">
                       SCHOOL FLAG
                     </h3>
-                  <div style={{ width:"300px" , height:"200px" }}>
-                  <img
-                      className="align-items-center"
-                      src={flag}
-                      alt=""
-                      width="100%"
-                      height="100%"
-                    />
-                  </div>  
+                    <div style={{ width: "300px", height: "200px" }}>
+                      <img
+                        className="align-items-center"
+                        src={flag}
+                        alt="School flag"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
                   </div>
                   <div className="mb-4 p-4">
                     <h3 className="d-flex justify-content-center align-items-center">
@@ -218,9 +222,9 @@ function About() {
           <div class="col">
             <div class="card h-100">
               <img
-                src="https://royalcollege.lk/wp-content/uploads/2021/07/ROHITH-scaled.jpg"
+                src={vission}
                 class="card-img-top "
-                alt="..."
+                alt="Vission"
                 height="300px"
                 style={{ objectFit: "cover" }}
               />
@@ -247,9 +251,9 @@ function About() {
           <div class="col">
             <div class="card h-100">
               <img
-                src="https://royalcollege.lk/wp-content/uploads/2021/07/website-acca-main-2-1365x1024-1-e1627929459820.png"
+                src={mission}
                 class="card-img-top"
-                alt="..."
+                alt="Mission"
                 height="300px"
                 style={{ objectFit: "cover" }}
               />
@@ -266,12 +270,10 @@ function About() {
                 <p class="card-text">
                   <p class="text-center">
                     <p>
-                      {" "}
                       පිරිපුන් දරුවෙක් බිහි කළ හැකි ඵලදායි ඉගෙනුම් පරිසරයක්
                       නිර්මාණය කිරීම.
                     </p>
                     <p>
-                      {" "}
                       சிறந்த பிளளை ஒள்றை பெற்றுவதற்காக பயனுள்ள சூழலை அமையுதல்.
                     </p>
                     <p>
@@ -286,9 +288,9 @@ function About() {
           <div class="col">
             <div class="card h-100">
               <img
-                src="https://royalcollege.lk/wp-content/uploads/2021/07/Administration-1-e1625827427446.jpg"
+                src={goals}
                 class="card-img-top"
-                alt="..."
+                alt="Goals"
                 height="300px"
                 style={{ objectFit: "cover" }}
               />
@@ -305,7 +307,6 @@ function About() {
                 <p class="card-text">
                   <p class="text-center">
                     <p>
-                      {" "}
                       The primary goal of the school is to offer its students
                       the best education possible. This goal may only be
                       achieved when student behavior and the general school
@@ -327,20 +328,16 @@ function About() {
               </u>
             </b>
           </p>
+
           <form>
             <ol>
+              <h5>
+                <b>
+                  <li> ENTRY INTO SCHOOL </li>
+                </b>
+              </h5>
+
               <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> ENTRY INTO SCHOOL </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
-              <p>
-                {" "}
                 Every student must bring his student record book to school
                 daily. If he fails to do so he may be refused entry to school.
                 No student will be entered into the College premises without the
@@ -350,18 +347,13 @@ function About() {
                 school premises is strictly prohibited.
               </p>
 
+              <h5>
+                <b>
+                  <li> COLLEGE ATTIRE </li>
+                </b>
+              </h5>
+
               <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> COLLEGE ATTIRE </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
-              <p>
-                {" "}
                 Students must come suitably clad wearing the school uniform and
                 the school badge. Unorthodox fashions and styles will not be
                 allowed Shoes – Plain black shoes (Fancy shoes, shoes with
@@ -396,19 +388,13 @@ function About() {
                 entering school with tattoos.
               </p>
 
-              <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> PUNCTUALITY </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
+              <h5>
+                <b>
+                  <li> PUNCTUALITY </li>
+                </b>
+              </h5>
 
               <p>
-                {" "}
                 Students should arrive at school before 7.15 a.m. All students
                 must remain in the classrooms from 7.17 a.m. to 10.20 a.m. and
                 from 10.40 a.m. to 1.15 p.m. Loitering outside the respective
@@ -420,19 +406,13 @@ function About() {
                 produce whenever requested.
               </p>
 
-              <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> ABSENCE FROM SCHOOL </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
+              <h5>
+                <b>
+                  <li> ABSENCE FROM SCHOOL </li>
+                </b>
+              </h5>
 
               <p>
-                {" "}
                 No student may keep away from school except on grounds of
                 illness or when on leave approved by the authority. The reasons
                 for absence must be submitted only on the special page, provided
@@ -448,19 +428,13 @@ function About() {
                 class register.
               </p>
 
-              <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> GENERAL CONDUCT </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
+              <h5>
+                <b>
+                  <li> GENERAL CONDUCT </li>
+                </b>
+              </h5>
 
               <p>
-                {" "}
                 Strict disciplinary action will be taken against any student
                 whose behaviour in public would bring the school into disrepute.
                 This should be kept in mind by all students wherever they may
@@ -472,19 +446,13 @@ function About() {
                 media platform would bring the school disrepute.
               </p>
 
-              <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> ACADEMICS </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
+              <h5>
+                <b>
+                  <li> ACADEMICS </li>
+                </b>
+              </h5>
 
               <p>
-                {" "}
                 Students should devote as much time as possible to their
                 education at home on a regular basis. Parents should check the
                 student’s work daily and make certain that their children are
@@ -503,19 +471,13 @@ function About() {
                 change his aesthetic subject or technical subject afterwards.
               </p>
 
-              <p>
-                {" "}
-                <h5>
-                  {" "}
-                  <b>
-                    {" "}
-                    <li> ATTENDANCE AND EXAMINATIONS </li>{" "}
-                  </b>{" "}
-                </h5>{" "}
-              </p>
+              <h5>
+                <b>
+                  <li> ATTENDANCE AND EXAMINATIONS </li>
+                </b>
+              </h5>
 
               <p>
-                {" "}
                 80% attendance is compulsory for students sitting for the G.C.E
                 Advanced Level Examination as a school candidate. Any student
                 who has attendance below 80% will not be accepted to sit the
@@ -533,7 +495,6 @@ function About() {
         {/* end genaral rules section */}
         {/* start school map section */}
         <p style={{ textAlign: "left" }}>
-          {" "}
           <b>
             <u>
               <h2> SCHOOL MAP </h2>
@@ -541,19 +502,16 @@ function About() {
           </b>
           <img
             src={map}
-            alt=""
+            alt="School Map"
             class="img-fluid"
             width="700px"
             height="400px"
-          />{" "}
+          />
         </p>
       </div>
+      {/* end school map section */}
     </div>
   );
-}
-
-{
-  /* end school map section */
 }
 
 export default About;
