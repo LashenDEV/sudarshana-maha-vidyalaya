@@ -21,7 +21,7 @@ function Navbar() {
                             <Link to='/' className="nav-link active">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/about' className="nav-link active">News And Events</Link>
+                            <Link to='/about' className="nav-link active">About</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/history' className="nav-link active">History</Link>
