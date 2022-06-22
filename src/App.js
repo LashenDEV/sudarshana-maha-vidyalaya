@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Gallery from "./components/pages/Gallery/gallery";
 import Footer from "./components/includes/Footer";
 import ScrollToTop from "./components/Animations/ScrollToTop/ScrollToTop";
+import NewsEvents from "./components/pages/NewsEvents/NewsEvents";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
                         <Routes>
                             <Route path="/" element={<Home/>}/>
                             <Route path="/about" element={<About/>}/>
+                            <Route path="/news_events" element={<NewsEvents/>}/>
                             <Route path="/contact" element={<Contact/>}/>
                             <Route path="/history" element={<History/>}/>
                             <Route path="/gallery" element={<Gallery/>}/>
