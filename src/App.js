@@ -16,6 +16,7 @@ import GalleryPagechildrensday from "./components/pages/Gallery/GalleryPagechild
 import GalleryPageEnglishday from "./components/pages/Gallery/GalleryPageEnglishday";
 import GalleryPageEnvironmentday from "./components/pages/Gallery/GalleryPageEnvironmentday";
 
+import NewsEvents from "./components/pages/NewsEvents/NewsEvents";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ function App() {
                         <Routes>
                             <Route path="/" element={<Home/>}/>
                             <Route path="/about" element={<About/>}/>
+                            <Route path="/news_events" element={<NewsEvents/>}/>
                             <Route path="/contact" element={<Contact/>}/>
                             <Route path="/history" element={<History/>}/>
                             <Route path="/gallery" element={<Gallery/>}/>
