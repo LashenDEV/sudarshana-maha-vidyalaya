@@ -1,4 +1,5 @@
 import React from "react";
+import Ticker from "../../Animations/Ticker/Ticker";
 
 function Summary() {
     return (
@@ -10,7 +11,7 @@ function Summary() {
                             <div className="card-body">
                                 <h2>Teachers</h2>
                                 <div className="text-info p-3">
-                                    <h1>150</h1>
+                                        <Ticker className="count" end={150}/>
                                 </div>
                             </div>
                         </div>
@@ -20,7 +21,7 @@ function Summary() {
                             <div className="card-body">
                                 <h2>Students</h2>
                                 <div className="text-info p-3">
-                                    <h1>3000</h1>
+                                    <Ticker className="count" end={3000}/>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +31,7 @@ function Summary() {
                             <div className="card-body">
                                 <h2>Non-Academic Staff</h2>
                                 <div className="text-info p-3">
-                                    <h1>30</h1>
+                                    <Ticker className="count" end={30}/>
                                 </div>
                             </div>
                         </div>
