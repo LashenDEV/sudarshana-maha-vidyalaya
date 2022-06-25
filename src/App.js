@@ -6,6 +6,8 @@ import Contact from "./components/pages/Contact/Contact";
 import Navbar from "./components/includes/Navbar";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Gallery from "./components/pages/Gallery/gallery";
+import Footer from "./components/includes/Footer";
+import ScrollToTop from "./components/Animations/ScrollToTop/ScrollToTop";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -20,16 +22,18 @@ function App() {
     return (
         !loading && (
             <Router>
-                <div>
-                    <Navbar/>
-                    <Routes>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/about" element={<About/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
-                        <Route path="/history" element={<History/>}/>
-                        <Route path="/gallery" element={<Gallery/>}/>
-                    </Routes>
-                </div>
+                <ScrollToTop/>
+                    <div>
+                        <Navbar/>
+                        <Routes>
+                            <Route path="/" element={<Home/>}/>
+                            <Route path="/about" element={<About/>}/>
+                            <Route path="/contact" element={<Contact/>}/>
+                            <Route path="/history" element={<History/>}/>
+                            <Route path="/gallery" element={<Gallery/>}/>
+                        </Routes>
+                        <Footer/>
+                    </div>
             </Router>
         )
     );
