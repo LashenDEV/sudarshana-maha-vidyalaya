@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import Crest from '../images/logo/crest.png';
 
 function Navbar() {
     return (
@@ -7,8 +8,8 @@ function Navbar() {
             <div className="container-fluid ms-5 my-3">
                 <Link to='/' className="navbar-brand d-flex align-items-center">
                     <img
-                        src="https://www.kindpng.com/picc/m/7-70674_thailand-school-logo-school-logos-free-download-hd.png"
-                        alt="" width="60" height="54"/>
+                        src={Crest}
+                        alt="" width="60" height="60"/>
                     <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
