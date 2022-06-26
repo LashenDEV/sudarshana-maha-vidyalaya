@@ -6,6 +6,16 @@ import Contact from "./components/pages/Contact/Contact";
 import Navbar from "./components/includes/Navbar";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Gallery from "./components/pages/Gallery/gallery";
+import Footer from "./components/includes/Footer";
+import ScrollToTop from "./components/Animations/ScrollToTop/ScrollToTop";
+import GalleryPage from "./components/pages/Gallery/GalleryPage";
+import GalleryPageSportmeet from "./components/pages/Gallery/GalleryPageSportmeet";
+import GalleryPageartday from "./components/pages/Gallery/GalleryPageartday";
+import GalleryPagescience from "./components/pages/Gallery/GalleryPagescience";
+import GalleryPagechildrensday from "./components/pages/Gallery/GalleryPagechildrensday";
+import GalleryPageEnglishday from "./components/pages/Gallery/GalleryPageEnglishday";
+import GalleryPageEnvironmentday from "./components/pages/Gallery/GalleryPageEnvironmentday";
+
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -20,16 +30,25 @@ function App() {
     return (
         !loading && (
             <Router>
-                <div>
-                    <Navbar/>
-                    <Routes>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/about" element={<About/>}/>
-                        <Route path="/contact" element={<Contact/>}/>
-                        <Route path="/history" element={<History/>}/>
-                        <Route path="/gallery" element={<Gallery/>}/>
-                    </Routes>
-                </div>
+                <ScrollToTop/>
+                    <div>
+                        <Navbar/>
+                        <Routes>
+                            <Route path="/" element={<Home/>}/>
+                            <Route path="/about" element={<About/>}/>
+                            <Route path="/contact" element={<Contact/>}/>
+                            <Route path="/history" element={<History/>}/>
+                            <Route path="/gallery" element={<Gallery/>}/>
+                            <Route path="/galleryPage" element={<GalleryPage/>}></Route>
+                            <Route path="/galleryPageSportmeet" element={<GalleryPageSportmeet/>}></Route>
+                            <Route path="/galleryPageartday" element={<GalleryPageartday/>}></Route>
+                            <Route path="/galleryPagescience" element={<GalleryPagescience/>}></Route>
+                            <Route path="/galleryPagechildrensday" element={<GalleryPagechildrensday/>}></Route>
+                            <Route path="/galleryPageEnglishday" element={<GalleryPageEnglishday/>}></Route>
+                            <Route path="/galleryPageEnvironmentday" element={<GalleryPageEnvironmentday/>}></Route> 
+                         </Routes>
+                        <Footer/>
+                    </div>
             </Router>
         )
     );
