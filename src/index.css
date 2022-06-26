@@ -55,13 +55,3 @@ code {
         transform: scale(1);
     }
 }
-
-.gold-heading {
-    color: #c49647 !important;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.link-light:hover{
-    color: #c49647 !important;
-}
