@@ -31,7 +31,7 @@ function Contact() {
           <div className="col-md-12 p-0">
             <div className="row text-white">
               <div className="col-md-3 p-5 paragraph">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-solid fa-location-dot fa-6x"
@@ -48,7 +48,7 @@ function Contact() {
                 </div>
               </div>
               <div className="col-md-3 p-5 paragraph">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class=" d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-solid fa-circle-phone fa-6x"
@@ -71,7 +71,7 @@ function Contact() {
                 </div>
               </div>
               <div className="col-md-3 p-5 paragraph">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-solid fa-paper-plane fa-6x"
@@ -94,7 +94,7 @@ function Contact() {
                 </div>
               </div>
               <div className="col-md-3 p-5 paragraph">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-solid fa-globe fa-6x"

@@ -10,7 +10,7 @@ function GalleryCard({title, imgurl}) {
         <img src={imgurl} alt="" className="card-img-top-custom" style={{objectFit: "cover"}} />
       </div>
       <div className="card-body">
-        <h4 className="btn btn-outline-info btn-lg btn-block">{title}</h4>
+        <h4 className="btn btn-outline-primary btn-lg text-white" style={{ backgroundColor: "#080c34" }}>{title}</h4>
       </div>
     </div>
     </>
