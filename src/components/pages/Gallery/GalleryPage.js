@@ -17,7 +17,7 @@ function GalleryCard() {
     <>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgUrl} alt=" "/>
-        <MDBBtn className="icon" color="danger" onClick={() => setModel(false)}><MDBIcon icon="times" /></MDBBtn>
+        <MDBBtn className="icon d-flex align-items-center justify-content-center" color="danger" onClick={() => setModel(false)}><MDBIcon icon="times" /></MDBBtn>
       </div>
       <div>
         <h3 style={{ textAlign: "right" }}>2022</h3>
