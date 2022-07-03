@@ -229,7 +229,7 @@ function About() {
                 style={{ objectFit: "cover" }}
               />
               <div class="card-body">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-duotone fa-crosshairs fa-2x me-3"
@@ -258,7 +258,7 @@ function About() {
                 style={{ objectFit: "cover" }}
               />
               <div class="card-body">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-duotone fa-eye fa-2x me-3"
@@ -295,7 +295,7 @@ function About() {
                 style={{ objectFit: "cover" }}
               />
               <div class="card-body">
-                <div class="icon d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
                   <p>
                     <i
                       class="fa-solid fa-bullseye-arrow fa-2x me-3"
