@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sudarshana-maha-vidyalaya/static/css/main.a3d2df92.css",
-    "main.js": "/sudarshana-maha-vidyalaya/static/js/main.f218e174.js",
+    "main.js": "/sudarshana-maha-vidyalaya/static/js/main.8bac8a06.js",
     "static/js/787.a4e77e86.chunk.js": "/sudarshana-maha-vidyalaya/static/js/787.a4e77e86.chunk.js",
     "static/media/5.jpg": "/sudarshana-maha-vidyalaya/static/media/5.ced21e7927c2e17e7912.jpg",
     "static/media/slider (5).jpeg": "/sudarshana-maha-vidyalaya/static/media/slider (5).bff0786d9d387e19eae6.jpeg",
@@ -46,11 +46,11 @@
     "static/media/slider (2).jpg": "/sudarshana-maha-vidyalaya/static/media/slider (2).0d8d467c2483bb9b90ef.jpg",
     "index.html": "/sudarshana-maha-vidyalaya/index.html",
     "main.a3d2df92.css.map": "/sudarshana-maha-vidyalaya/static/css/main.a3d2df92.css.map",
-    "main.f218e174.js.map": "/sudarshana-maha-vidyalaya/static/js/main.f218e174.js.map",
+    "main.8bac8a06.js.map": "/sudarshana-maha-vidyalaya/static/js/main.8bac8a06.js.map",
     "787.a4e77e86.chunk.js.map": "/sudarshana-maha-vidyalaya/static/js/787.a4e77e86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3d2df92.css",
-    "static/js/main.f218e174.js"
+    "static/js/main.8bac8a06.js"
   ]
 }
