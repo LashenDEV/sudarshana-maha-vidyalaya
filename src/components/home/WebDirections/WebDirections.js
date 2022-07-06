@@ -18,7 +18,7 @@ function WebDirections() {
                                 stakeholder.</p>
                             <div className="d-flex justify-content-around align-items-center">
                                 <img src={Logo} width="70%" height="60%" alt=""/>
-                                <button className="btn btn-primary h-100 btn-lg">Visit Now</button>
+                                <button className="btn btn-danger h-100 btn-lg">Visit Now</button>
                             </div>
                         </div>
                         <div className="col-md-6 p-5 link-container">

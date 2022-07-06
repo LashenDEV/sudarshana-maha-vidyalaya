@@ -24,9 +24,9 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-md-3 ms-md-auto d-md-block d-flex align-items-center flex-column">
-                            <h2 className="contact-box-row pt-3 pt-md-0 text-center text-md-start gold-heading">
+                            <h3 className="contact-box-row pt-3 pt-md-0 text-center text-md-start gold-heading">
                                 Contact us
-                            </h2>
+                            </h3>
                             <div className="p-3 text-md-start text-center">
                                 <div className="d-flex align-items-center justify-content-start pb-2">
                                     <i className="fa fa-location-circle fa-2x pe-3"/>
@@ -46,9 +46,9 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-md-3 ms-md-auto d-md-block d-flex align-items-center flex-column">
-                            <h2 className="mb-2 p-0 gold-heading">
+                            <h3 className="mb-2 p-0 gold-heading">
                                 Quick Links
-                            </h2>
+                            </h3>
                             <div className="p-3 footer-links text-md-start">
                                 <div className="d-flex align-items-center">
                                     <Link to='/' className="nav-link link-light "><i
@@ -78,9 +78,9 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-md-3 ms-md-auto d-md-block d-flex align-items-center flex-column">
-                            <h2 className="mb-3 gold-heading">
+                            <h3 className="mb-3 gold-heading">
                                 Social Links
-                            </h2>
+                            </h3>
                             <div>
                                 <ul
                                     className="col-2 col-md-5 list-unstyled"

@@ -1,6 +1,11 @@
 import React from "react";
 import "./Features.css";
-
+import academic1 from "../../images/home page/academic1.jpg"
+import academic2 from "../../images/home page/academic2.jpg"
+import club1 from "../../images/home page/club1.jpg"
+import club2 from "../../images/home page/club2.jpg"
+import sport1 from "../../images/home page/sport1.png"
+import sport2 from "../../images/home page/sport2.jpg"
 function Features() {
     return (<div style={{backgroundColor: "#fafafa"}}>
         <div className="col-12 container">
@@ -20,18 +25,18 @@ function Features() {
                 </div>
                 <div className="col-6 d-flex feature_image_container">
                     <img className="image1"
-                         src="https://royalcollege.lk/wp-content/uploads/2021/07/academics-Homepage-e1625820938479.jpg"/>
+                         src={academic1}/>
                     <img className="image2"
-                         src="https://royalcollege.lk/wp-content/uploads/2021/07/Academics-Homepage-4-scaled-e1625826297511.jpg"/>
+                         src={academic2}/>
                 </div>
             </div>
 
             <div className="d-flex py-5 align-items-center feature-container justify-content-between">
                 <div className="col-6 d-flex feature_image_container">
                     <img className="image1"
-                         src="https://royalcollege.lk/wp-content/uploads/2021/08/Clubs-homepage-2-2.jpg"/>
+                         src={club1}/>
                     <img className="image2"
-                         src="https://royalcollege.lk/wp-content/uploads/2021/08/Clubs-and-Societies-Homepage-Image-1.jpg"/>
+                         src={club2}/>
                 </div>
                 <div className="col-6 d-flex flex-column align-items-center justify-content-center feature_description">
                     <div className="text-center w-75">
@@ -61,9 +66,9 @@ function Features() {
                 </div>
                 <div className="col-6 d-flex feature_image_container">
                     <img className="image1"
-                         src="https://royalcollege.lk/wp-content/uploads/2021/07/Main-page-sport-sailing-e1625829213650.png"/>
+                         src={sport1}/>
                     <img className="image2"
-                         src="https://royalcollege.lk/wp-content/uploads/2021/07/Sports-1-e1625827606595.jpg"/>
+                         src={sport2}/>
                 </div>
             </div>
         </div>
