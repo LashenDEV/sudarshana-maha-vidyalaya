@@ -51,7 +51,7 @@ function Footer() {
                             </h2>
                             <div className="p-3 footer-links text-md-start">
                                 <div className="d-flex align-items-center">
-                                    <Link to='/' className="nav-link link-light "><i
+                                    <Link to='/sudarshana-maha-vidyalaya/' className="nav-link link-light "><i
                                         className="fa-solid fa-home-blank fa-lg pe-3"/>Home</Link>
                                 </div>
                                 <div className="d-flex align-items-center">
