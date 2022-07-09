@@ -11,9 +11,7 @@ function Summary() {
                             <div className="card-body">
                                 <h2>Teachers</h2>
                                 <div className="text-info p-3">
-                                    <h1 style={{ color: "#b8860b", }}>
-                                            <Ticker className="count" end={150}/>
-                                    </h1>
+                                        <Ticker className="count" end={150} duration={2}/>
                                 </div>
                             </div>
                         </div>
@@ -23,9 +21,7 @@ function Summary() {
                             <div className="card-body">
                                 <h2>Students</h2>
                                 <div className="text-info p-3">
-                                    <h1 style={{ color: "#b8860b" }}>
-                                        <Ticker className="count" end={3000}/>
-                                    </h1>
+                                    <Ticker className="count" end={3000} duration={2}/>
                                 </div>
                             </div>
                         </div>
@@ -35,9 +31,7 @@ function Summary() {
                             <div className="card-body">
                                 <h2>Non-Academic Staff</h2>
                                 <div className="text-info p-3">
-                                    <h1 style={{ color: "#b8860b" }}>
-                                        <Ticker className="count" end={30}/>
-                                    </h1>
+                                    <Ticker className="count" end={30} duration={2}/>
                                 </div>
                             </div>
                         </div>
