@@ -22,19 +22,19 @@ function Navbar() {
                             <Link to='/sudarshana-maha-vidyalaya/' className="nav-link active">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/about' className="nav-link active">About</Link>
+                            <Link to='/sudarshana-maha-vidyalaya/about' className="nav-link active">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/news_events' className="nav-link active">News & Events</Link>
+                            <Link to='/sudarshana-maha-vidyalaya/news_events' className="nav-link active">News & Events</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/history' className="nav-link active">History</Link>
+                            <Link to='/sudarshana-maha-vidyalaya/history' className="nav-link active">History</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/gallery' className="nav-link active">Gallery</Link>
+                            <Link to='/sudarshana-maha-vidyalaya/gallery' className="nav-link active">Gallery</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/contact' className="nav-link active">Contact Us</Link>
+                            <Link to='/sudarshana-maha-vidyalaya/contact' className="nav-link active">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

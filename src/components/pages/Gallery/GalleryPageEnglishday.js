@@ -91,7 +91,6 @@ function GalleryCard() {
 function Gallery() {
   return (
     <div className="container">
-  
       <div style={{ marginTop: "20px" }}>
         <div className="card-body">
           <GalleryCard />

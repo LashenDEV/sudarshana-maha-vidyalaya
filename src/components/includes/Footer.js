@@ -55,24 +55,24 @@ function Footer() {
                                         className="fa-solid fa-home-blank fa-lg pe-3"/>Home</Link>
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <Link to='/about' className="nav-link link-light"><i
+                                    <Link to='/sudarshana-maha-vidyalaya/about' className="nav-link link-light"><i
                                         className="fa-solid fa-circle-info fa-lg pe-3"/>About</Link>
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <Link to='/news_events' className="nav-link link-light"><i
+                                    <Link to='/sudarshana-maha-vidyalaya/news_events' className="nav-link link-light"><i
                                         className="fa-solid fa-newspaper fa-lg pe-3"/>News
                                         and Events</Link>
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <Link to='/history' className="nav-link link-light"> <i
+                                    <Link to='/sudarshana-maha-vidyalaya/history' className="nav-link link-light"> <i
                                         className="fa-solid fa-landmark fa-lg pe-3"/>History</Link>
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <Link to='/gallery' className="nav-link link-light"> <i
+                                    <Link to='/sudarshana-maha-vidyalaya/gallery' className="nav-link link-light"> <i
                                         className="fa-solid fa-rectangle-history fa-lg pe-3"/>Gallery</Link>
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <Link to='/contact' className="nav-link link-light"> <i
+                                    <Link to='/sudarshana-maha-vidyalaya/contact' className="nav-link link-light"> <i
                                         className="fa-solid fa-phone-rotary fa-lg pe-3"/>Contact Us</Link>
                                 </div>
                             </div>
