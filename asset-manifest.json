@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sudarshana-maha-vidyalaya/static/css/main.df7d987e.css",
-    "main.js": "/sudarshana-maha-vidyalaya/static/js/main.1f3d1ded.js",
+    "main.css": "/sudarshana-maha-vidyalaya/static/css/main.8f9a559d.css",
+    "main.js": "/sudarshana-maha-vidyalaya/static/js/main.8cb1bc47.js",
     "static/js/787.a4e77e86.chunk.js": "/sudarshana-maha-vidyalaya/static/js/787.a4e77e86.chunk.js",
     "static/media/5.jpg": "/sudarshana-maha-vidyalaya/static/media/5.ced21e7927c2e17e7912.jpg",
     "static/media/slider (5).jpeg": "/sudarshana-maha-vidyalaya/static/media/slider (5).bff0786d9d387e19eae6.jpeg",
@@ -14,7 +14,7 @@
     "static/media/8.jpg": "/sudarshana-maha-vidyalaya/static/media/8.efa82d6da88946b988a9.jpg",
     "static/media/1.png": "/sudarshana-maha-vidyalaya/static/media/1.85e569e3cac90600621b.png",
     "static/media/meeting.jpg": "/sudarshana-maha-vidyalaya/static/media/meeting.2b7aace4b5b7fce0a50d.jpg",
-    "static/media/crest.png": "/sudarshana-maha-vidyalaya/static/media/crest.e420cd065a61cdd696ad.png",
+    "static/media/crest.png": "/sudarshana-maha-vidyalaya/static/media/crest.1788d5e9d5ed2f03bf99.png",
     "static/media/6.jpg": "/sudarshana-maha-vidyalaya/static/media/6.cb87f12c17042c3c9f30.jpg",
     "static/media/club1.jpg": "/sudarshana-maha-vidyalaya/static/media/club1.7016d42d6b66d230c14a.jpg",
     "static/media/2.png": "/sudarshana-maha-vidyalaya/static/media/2.ec28b6c9d3f48350fdc6.png",
@@ -33,7 +33,7 @@
     "static/media/3.jpg": "/sudarshana-maha-vidyalaya/static/media/3.09cff6992a8a64d79a2d.jpg",
     "static/media/main.jpg": "/sudarshana-maha-vidyalaya/static/media/main.e5a5273fafdeae6beaf6.jpg",
     "static/media/sil1.jpg": "/sudarshana-maha-vidyalaya/static/media/sil1.f7812dcecdd578ad7538.jpg",
-    "static/media/vission.jpg": "/sudarshana-maha-vidyalaya/static/media/vission.c3d6599b42ebd0e01e77.jpg",
+    "static/media/vision.jpg": "/sudarshana-maha-vidyalaya/static/media/vision.c3d6599b42ebd0e01e77.jpg",
     "static/media/sport2.jpg": "/sudarshana-maha-vidyalaya/static/media/sport2.3d9a255a1ba5d32b7cea.jpg",
     "static/media/slider (1).jpg": "/sudarshana-maha-vidyalaya/static/media/slider (1).b9ba5cf4da70d977a442.jpg",
     "static/media/sil3.jpg": "/sudarshana-maha-vidyalaya/static/media/sil3.9ab231c15f6bcd63eecf.jpg",
@@ -51,12 +51,12 @@
     "static/media/notice.jpg": "/sudarshana-maha-vidyalaya/static/media/notice.9048850dcdc94265f6f9.jpg",
     "static/media/slider (2).jpg": "/sudarshana-maha-vidyalaya/static/media/slider (2).0d8d467c2483bb9b90ef.jpg",
     "index.html": "/sudarshana-maha-vidyalaya/index.html",
-    "main.df7d987e.css.map": "/sudarshana-maha-vidyalaya/static/css/main.df7d987e.css.map",
-    "main.1f3d1ded.js.map": "/sudarshana-maha-vidyalaya/static/js/main.1f3d1ded.js.map",
+    "main.8f9a559d.css.map": "/sudarshana-maha-vidyalaya/static/css/main.8f9a559d.css.map",
+    "main.8cb1bc47.js.map": "/sudarshana-maha-vidyalaya/static/js/main.8cb1bc47.js.map",
     "787.a4e77e86.chunk.js.map": "/sudarshana-maha-vidyalaya/static/js/787.a4e77e86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df7d987e.css",
-    "static/js/main.1f3d1ded.js"
+    "static/css/main.8f9a559d.css",
+    "static/js/main.8cb1bc47.js"
   ]
 }
