@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
-const Ticker = ({ className, ...rest }) => {
+const Ticker = ({className, ...rest}) => {
     const [viewPortEntered, setViewPortEntered] = useState(false);
 
     return (
         <CountUp {...rest} start={viewPortEntered ? null : 0}>
-            {({ countUpRef }) => {
+            {({countUpRef}) => {
                 return (
                     <VisibilitySensor
                         active={!viewPortEntered}
@@ -18,7 +18,8 @@ const Ticker = ({ className, ...rest }) => {
                         }}
                         delayedCall
                     >
-                        <h1 className={className} ref={countUpRef} />
+                        <h1 className={className}
+                            style={{fontFamily: 'Roboto Mono', fontWeight: "500", fontSize: "100px", color: "rgb(55 44 27)"}} ref={countUpRef}/>
                     </VisibilitySensor>
                 );
             }}

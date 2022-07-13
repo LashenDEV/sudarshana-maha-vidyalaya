@@ -34,19 +34,19 @@ function App() {
                     <div>
                         <Navbar/>
                         <Routes>
-                            <Route path="/sudarshana-maha-vidyalaya/" element={<Home/>}/>
-                            <Route path="/about" element={<About/>}/>
-                            <Route path="/news_events" element={<NewsEvents/>}/>
-                            <Route path="/contact" element={<Contact/>}/>
-                            <Route path="/history" element={<History/>}/>
-                            <Route path="/gallery" element={<Gallery/>}/>
-                            <Route path="/galleryPage" element={<GalleryPage/>}></Route>
-                            <Route path="/galleryPageSportmeet" element={<GalleryPageSportmeet/>}></Route>
-                            <Route path="/galleryPageartday" element={<GalleryPageartday/>}></Route>
-                            <Route path="/galleryPagescience" element={<GalleryPagescience/>}></Route>
-                            <Route path="/galleryPagechildrensday" element={<GalleryPagechildrensday/>}></Route>
-                            <Route path="/galleryPageEnglishday" element={<GalleryPageEnglishday/>}></Route>
-                            <Route path="/galleryPageEnvironmentday" element={<GalleryPageEnvironmentday/>}></Route> 
+                            <Route path="/sudarshana-maha-vidyalaya" element={<Home/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/about" element={<About/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/news_events" element={<NewsEvents/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/contact" element={<Contact/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/history" element={<History/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/gallery" element={<Gallery/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPage" element={<GalleryPage/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPageSportmeet" element={<GalleryPageSportmeet/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPageartday" element={<GalleryPageartday/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPagescience" element={<GalleryPagescience/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPagechildrensday" element={<GalleryPagechildrensday/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPageEnglishday" element={<GalleryPageEnglishday/>}/>
+                            <Route path="/sudarshana-maha-vidyalaya/galleryPageEnvironmentday" element={<GalleryPageEnvironmentday/>}/>
                          </Routes>
                         <Footer/>
                     </div>
