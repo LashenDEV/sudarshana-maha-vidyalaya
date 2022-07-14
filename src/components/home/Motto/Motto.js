@@ -1,7 +1,9 @@
 import React from "react";
 import "./Motto.css";
 
+
 function Motto() {
+    
     return (
         <div className="text-center py-3 gradient-bg">
             <h2>පඤ්ඤා නරානං රතනං</h2>

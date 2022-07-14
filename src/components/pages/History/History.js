@@ -1,6 +1,14 @@
 import React from "react";
+import { useSpring, animated } from 'react-spring';
+
 
 function History() {
+  
+    const props = useSpring({
+        to: { opacity: 1 },
+        from: { opacity: 0 },
+        delay: 600,})
+
   return (
     <div className="container-">
       <div class="col-lg-12">
@@ -13,14 +21,14 @@ function History() {
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
-          <div class="card-img-overlay d-flex align-items-center justify-content-center">
-            <p class="display-1" style={{ fontSize: "8rem" }}>
+          <div style={props} class="card-img-overlay d-flex align-items-center justify-content-center">
+            <p class="display-1 animate__animated animate__fadeInLeft" style={{ fontSize: "8rem" }}>
               History
             </p>
           </div>
         </div>
       </div>
-      <div className="border-none d-flex justify-content-center mt-5">
+      <animated.div style={props} className="border-none d-flex justify-content-center mt-5">
         <div className="w-50 text-center">
           <h1>100 Years of Excellence.</h1>
           <p>
@@ -35,7 +43,7 @@ function History() {
             for government assistance.
           </p>
         </div>
-      </div>
+      </animated.div>
       <div className="col-12 container">
         <div className="d-flex py-5 align-items-center feature-container justify-content-between">
           <div className="col-6 d-flex flex-column align-items-center justify-content-center feature_description">

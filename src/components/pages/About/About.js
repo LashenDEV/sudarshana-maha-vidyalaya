@@ -9,8 +9,14 @@ import about from "../../images/about/about.jpg";
 import school from "../../images/about/school.jpg";
 import song from "../../images/about/song.jpg";
 import "./About.css";
+import { useSpring, animated } from 'react-spring'
 
 function About() {
+  const props = useSpring({
+    to: { opacity: 1 },
+    from: { opacity: 0 },
+    delay: 600,})
+     
   return (
     <div>
       <div className="card text-white">
@@ -23,12 +29,12 @@ function About() {
           />
         </div>
         <div className="card-img-overlay d-flex align-items-center justify-content-center">
-          <p class="display-1" style={{ fontSize: "8rem" }}>
+          <p class="display-1 animate__animated animate__fadeInLeft" style={{ fontSize: "8rem" }}>
             About
           </p>
         </div>
       </div>
-      <div className="border-none d-flex justify-content-center mt-5">
+      <animated.div style={props} className="border-none d-flex justify-content-center mt-5">
         <div className="w-50 text-center">
           <h1>About Sudarshana Maha Vidyalaya</h1>
           <p>
@@ -47,9 +53,9 @@ function About() {
             most beautiful landscapes in Sri Lanka.
           </p>
         </div>
-      </div>
+      </animated.div>
       {/* start profile section */}
-      <div className="col-md-12 container-fluid">
+      <div className="col-md-12 container-fluid animate__animated animate__pulse animate__delay-2s">
         <div className="row pb-5 p-5">
           <div className="col-md-4">
             <div className="card shadow p-3 mb-5 bg-body rounded h-100">
@@ -219,7 +225,7 @@ function About() {
 
       <div class="container" data-aos="fade-up">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
+          <div class="col animate__animated animate__pulse animate__delay-5s">
             <div class="card h-100">
               <img
                 src={vission}
@@ -248,7 +254,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col animate__animated animate__pulse animate__delay-5s">
             <div class="card h-100">
               <img
                 src={mission}
@@ -285,7 +291,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col animate__animated animate__pulse animate__delay-5s">
             <div class="card h-100">
               <img
                 src={goals}
@@ -503,7 +509,7 @@ function About() {
           <img
             src={map}
             alt="School Map"
-            class="img-fluid"
+            class="img-fluid animate__animated animate__pulse animate__delay-5s"
             width="700px"
             height="400px"
           />

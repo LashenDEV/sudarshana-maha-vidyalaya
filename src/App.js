@@ -16,6 +16,7 @@ import GalleryPagechildrensday from "./components/pages/Gallery/GalleryPagechild
 import GalleryPageEnglishday from "./components/pages/Gallery/GalleryPageEnglishday";
 import GalleryPageEnvironmentday from "./components/pages/Gallery/GalleryPageEnvironmentday";
 import NewsEvents from "./components/pages/NewsEvents/NewsEvents";
+import "animate.css";
 
 function App() {
     const [loading, setLoading] = useState(true);

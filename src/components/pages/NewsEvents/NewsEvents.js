@@ -24,7 +24,7 @@ function NewsEvents() {
               />
               </div>
             <div className="card-img-overlay d-flex align-items-center justify-content-center">
-              <p class="display-1" style={{ fontSize: "8rem" }}>
+              <p class="display-1 animate__animated animate__fadeInLeft" style={{ fontSize: "8rem" }}>
                News & Events
               </p>
            </div>

@@ -5,7 +5,7 @@ function Welcome() {
         <div className="col-md-12 container">
             <div className="row">
                 <div className="col-md-8 pb-5 px-5">
-                    <h3>Welcome !</h3>
+                    <h3 class="animate__animated animate__pulse animate__delay-2s">Welcome !</h3>
                     <p className="lh-lg paragraph"> Sudarshan Maha Vidyalaya, Galle is a shining star in the sourthern
                         sky and hoisting her flag
                         high
@@ -24,7 +24,7 @@ function Welcome() {
                         education from grade 6 to grade 11. Tutorial staff consist of 80 well equipped team of teachers
                         and
                         7 non academic staff..</p>
-                    <div className="row text-center">
+                    <div className="row text-center animate__animated animate__pulse animate__delay-5s">
                         <div className="col-md-6">
                             <div className="card p-4 h-100 d-flex align-items-center">
                                 <h3 className="d-flex justify-content-center align-items-center">
@@ -54,7 +54,7 @@ function Welcome() {
 
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 animate__animated animate__pulse animate__delay-3s">
                     <div className="card shadow p-3 mb-5 bg-body rounded">
                         <div className="card-body">
                             <div className="d-flex justify-content-center mb-4">
