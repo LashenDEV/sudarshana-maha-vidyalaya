@@ -28,7 +28,7 @@ function About() {
                     </p>
                 </div>
             </div>
-            <div className="border-none d-flex justify-content-center mt-5">
+            <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor:"#FFFACD"}}>
                 <div className="w-50 text-center animate__animated animate__zoomIn">
                     <h1>About Sudarshana Maha Vidyalaya</h1>
                     <p>
