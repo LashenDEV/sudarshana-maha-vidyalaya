@@ -33,7 +33,7 @@ function NewsEvents() {
 
             <div className="col-md-12">
                 <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
-                    <div className="col-mb-12 animate__animated animate__bounceIn animate__repeat-2">
+                    <div className="col-mb-12">
                         <div className="card h-100 mb-3 border-dark" style={{backgroundColor: "#c49647"}}>
                             <div className="card-header text-white mb-3" style={{backgroundColor: "#080c34"}}>
                                 <h5 className="card-title text-center">Admission to A/L Section – Application 2022</h5>

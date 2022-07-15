@@ -20,7 +20,7 @@ function History() {
           </div>
         </div>
       </div>
-      <div className="border-none d-flex justify-content-center mt-5">
+      <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor:"#FFFACD"}}>
         <div className="w-50 text-center animate__animated animate__zoomIn">
           <h1>100 Years of Excellence.</h1>
           <p>
