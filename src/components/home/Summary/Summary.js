@@ -8,7 +8,7 @@ function Summary() {
                 <div className="row text-center">
                     <div className="col-xl-4">
                         <div className="my-4">
-                            <div className="card-body p-5 rounded" style={{backgroundColor: "#a8a5b7"}}>
+                            <div className="card-body p-lg-5 rounded" style={{backgroundColor: "#a8a5b7"}}>
                                 <h2>Teachers</h2>
                                 <div className="text-info p-3">
                                     <Ticker className="count" end={150} duration={1}/>
@@ -18,7 +18,7 @@ function Summary() {
                     </div>
                     <div className="col-xl-4">
                         <div className="my-4">
-                            <div className="card-body p-5 rounded" style={{backgroundColor: "#a8a5b7"}}>
+                            <div className="card-body p-lg-5 rounded" style={{backgroundColor: "#a8a5b7"}}>
                                 <h2>Students</h2>
                                 <div className="text-info p-3">
                                     <Ticker className="count" end={3000} duration={1}/>
@@ -28,7 +28,7 @@ function Summary() {
                     </div>
                     <div className="col-xl-4">
                         <div className="my-4">
-                            <div className="card-body p-5 rounded" style={{backgroundColor: "#a8a5b7"}}>
+                            <div className="card-body p-lg-5 rounded" style={{backgroundColor: "#a8a5b7"}}>
                                 <h2>Non-Academic Staff</h2>
                                 <div className="text-info p-3">
                                     <Ticker className="count" end={30} duration={1}/>
