@@ -167,9 +167,9 @@ function About() {
                     {/* end school song section */}
 
                     <div className="col-md-4 d-flex align-items-center">
-                        <div className="card-body  d-md-flex">
+                        <div className="card-body p-0 d-md-flex">
                             <div className="d-flex flex-column align-items-center justify-content-center">
-                                <div className="mb-4 p-4">
+                                <div className="mb-4 p-md-4">
                                     <h3 className="d-flex justify-content-center align-items-center">
                                         SCHOOL CREST
                                     </h3>
@@ -183,7 +183,7 @@ function About() {
                                         />
                                     </div>
                                 </div>
-                                <div className="mb-4 p-4">
+                                <div className="mb-4 p-md-4">
                                     <h3 className="d-flex justify-content-center align-items-center pb-4">
                                         SCHOOL FLAG
                                     </h3>
@@ -197,7 +197,7 @@ function About() {
                                         />
                                     </div>
                                 </div>
-                                <div className="mb-4 p-4">
+                                <div className="mb-4 p-md-4">
                                     <h3 className="d-flex justify-content-center align-items-center">
                                         SCHOOL MOTTO
                                     </h3>

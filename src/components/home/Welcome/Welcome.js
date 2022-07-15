@@ -4,7 +4,7 @@ function Welcome() {
     return (
         <div className="col-md-12 p-5">
             <div className="row">
-                <div className="col-md-8 pb-5 px-5">
+                <div className="col-md-8 pb-3">
                     <h2>WELCOME!</h2>
                     <p className="lh-lg paragraph lead pb-4"> Sudarshan Maha Vidyalaya, Galle is a shining star in the
                         sourthern
@@ -26,7 +26,7 @@ function Welcome() {
                         and
                         7 non academic staff..</p>
                     <div className="row text-center">
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-4">
                             <div className="card p-4 h-100 d-flex align-items-center border-0">
                                 <h3 className="d-flex justify-content-center align-items-center">
                                     <i className="fa-duotone fa-crosshairs fa-2x me-3"></i>
@@ -38,7 +38,7 @@ function Welcome() {
                                     Total Child for a Perfect Nation.</p>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-4">
                             <div className="card p-4 h-100 border-0">
                                 <h3 className="d-flex justify-content-center align-items-center"><i
                                     className="fa-duotone fa-eye fa-2x me-3"/> Our Mission</h3>

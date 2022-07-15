@@ -130,11 +130,11 @@ function Contact() {
                         </div>
                     </div>
                     <div className="col-md-6 p-0 vh-100 d-flex align-items-center">
-                        <div className="card text-dark p-5 border-0 bg-color-white">
+                        <div className="card text-dark p-5 border-0" style={{backgroundColor: "aliceblue"}}>
                             <div>
                                 <h2>We want to hear from you.</h2>
                             </div>
-                            <div className="card-body ">
+                            <div className="card-body">
                                 <form class="row g-3 p-2">
                                     <div class="col-8">
                                         <label for="inputName" class="form-label">
@@ -145,7 +145,7 @@ function Contact() {
                                             class="form-control"
                                             id="inputAddress"
                                             placeholder="Name"
-                                        ></input>
+                                        />
                                     </div>
                                     <div class="col-md-6">
                                         <label for="inputEmaile" class="form-label">
@@ -156,7 +156,7 @@ function Contact() {
                                             class="form-control"
                                             id="inputEmail4"
                                             placeholder="abc@gmail.com"
-                                        ></input>
+                                        />
                                     </div>
                                     <div class="col-md-6">
                                         <label for="inputPhone" class="form-label">
@@ -166,8 +166,8 @@ function Contact() {
                                             type="tel"
                                             class="form-control"
                                             id="inputPassword4"
-                                            placeholder="+94*********"
-                                        ></input>
+                                            placeholder="+94 ** *** ** **"
+                                        />
                                     </div>
                                     <div class="col-8">
                                         <label for="inputName" class="form-label">
@@ -178,7 +178,7 @@ function Contact() {
                                             class="form-control"
                                             id="inputAddress"
                                             placeholder="Subject your message"
-                                        ></input>
+                                        />
                                     </div>
 
                                     <div class="col-12">
@@ -190,7 +190,7 @@ function Contact() {
                                             id="exampleFormControlTextarea1"
                                             rows="3"
                                             placeholder=" What's in your mind? "
-                                        ></textarea>
+                                        />
                                     </div>
 
                                     <div class="col-12">
