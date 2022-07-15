@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sudarshana-maha-vidyalaya/static/css/main.0de21a68.css",
-    "main.js": "/sudarshana-maha-vidyalaya/static/js/main.0d16117f.js",
+    "main.js": "/sudarshana-maha-vidyalaya/static/js/main.8b3e67f1.js",
     "static/js/787.a4e77e86.chunk.js": "/sudarshana-maha-vidyalaya/static/js/787.a4e77e86.chunk.js",
     "static/media/5.jpg": "/sudarshana-maha-vidyalaya/static/media/5.ced21e7927c2e17e7912.jpg",
     "static/media/slider (5).jpeg": "/sudarshana-maha-vidyalaya/static/media/slider (5).bff0786d9d387e19eae6.jpeg",
@@ -34,6 +34,7 @@
     "static/media/main.jpg": "/sudarshana-maha-vidyalaya/static/media/main.e5a5273fafdeae6beaf6.jpg",
     "static/media/sil1.jpg": "/sudarshana-maha-vidyalaya/static/media/sil1.f7812dcecdd578ad7538.jpg",
     "static/media/vision.jpg": "/sudarshana-maha-vidyalaya/static/media/vision.c3d6599b42ebd0e01e77.jpg",
+    "static/media/Childrens-Course-IME-Institute-of-Multimedia-Education.jpg": "/sudarshana-maha-vidyalaya/static/media/Childrens-Course-IME-Institute-of-Multimedia-Education.b189faec96a2a544e628.jpg",
     "static/media/sport2.jpg": "/sudarshana-maha-vidyalaya/static/media/sport2.3d9a255a1ba5d32b7cea.jpg",
     "static/media/slider (1).jpg": "/sudarshana-maha-vidyalaya/static/media/slider (1).b9ba5cf4da70d977a442.jpg",
     "static/media/sil3.jpg": "/sudarshana-maha-vidyalaya/static/media/sil3.9ab231c15f6bcd63eecf.jpg",
@@ -52,11 +53,11 @@
     "static/media/slider (2).jpg": "/sudarshana-maha-vidyalaya/static/media/slider (2).0d8d467c2483bb9b90ef.jpg",
     "index.html": "/sudarshana-maha-vidyalaya/index.html",
     "main.0de21a68.css.map": "/sudarshana-maha-vidyalaya/static/css/main.0de21a68.css.map",
-    "main.0d16117f.js.map": "/sudarshana-maha-vidyalaya/static/js/main.0d16117f.js.map",
+    "main.8b3e67f1.js.map": "/sudarshana-maha-vidyalaya/static/js/main.8b3e67f1.js.map",
     "787.a4e77e86.chunk.js.map": "/sudarshana-maha-vidyalaya/static/js/787.a4e77e86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0de21a68.css",
-    "static/js/main.0d16117f.js"
+    "static/js/main.8b3e67f1.js"
   ]
 }
