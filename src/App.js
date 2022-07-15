@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "animate.css";
 import Home from "./components/pages/Home/Home";
 import About from "./components/pages/About/About";
 import History from "./components/pages/History/History";

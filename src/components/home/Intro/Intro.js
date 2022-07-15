@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
     return (
-        <div className="border-none d-flex justify-content-center mt-5">
+        <div className="border-none d-flex justify-content-center mt-5 animate__animated animate__zoomIn">
                 <div className="w-50 text-center">
                     <h2>An Experience That Lasts a Lifetime.</h2>
                     <p>Since 1835, The Sudarshana Maha Vidyalaya has been devoted to producing gentlemen capable of spearheading change and

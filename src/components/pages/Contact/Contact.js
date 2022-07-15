@@ -14,7 +14,7 @@ function Contact() {
                         />
                     </div>
                     <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                        <p class="display-1" style={{fontSize: "8rem"}}>
+                        <p class="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
                             <center>Contact Us</center>
                             <hr></hr>
                             <p style={{fontSize: "1rem"}}>

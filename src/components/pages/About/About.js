@@ -23,13 +23,13 @@ function About() {
                     />
                 </div>
                 <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                    <p class="display-1" style={{fontSize: "8rem"}}>
+                    <p class="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
                         About
                     </p>
                 </div>
             </div>
             <div className="border-none d-flex justify-content-center mt-5">
-                <div className="w-50 text-center">
+                <div className="w-50 text-center animate__animated animate__zoomIn">
                     <h1>About Sudarshana Maha Vidyalaya</h1>
                     <p>
                         Sudarshana Maha Vidyalaya, located in the heart of Uva Province Sri
