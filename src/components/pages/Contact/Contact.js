@@ -3,20 +3,20 @@ import React from "react";
 function Contact() {
     return (
         <div>
-            <div class="col-md-12 p-0">
-                <div class="card text-white">
+            <div className="col-md-12 p-0">
+                <div className="card text-white">
                     <div className="w-100" style={{height: "500px"}}>
                         <img
                             src="https://taufidius.files.wordpress.com/2010/06/439709573_f9c8ad1c2c_o-copy.jpg"
-                            class="card-img"
+                            className="card-img"
                             alt="..."
                             style={{width: "100%", height: "100%", objectFit: "cover"}}
                         />
                     </div>
-                    <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                        <p class="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
+                    <div className="card-img-overlay d-flex align-items-center justify-content-center">
+                        <p className="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
                             <center>Contact Us</center>
-                            <hr></hr>
+                            <hr/>
                             <p style={{fontSize: "1rem"}}>
                                 &nbsp;&nbsp;&nbsp;Want to get in touch? We'd love to hear from
                                 you. Here's how you can reach us...
@@ -34,15 +34,15 @@ function Contact() {
                                 <div class="d-flex align-items-center justify-content-center">
                                     <p>
                                         <i
-                                            class="fa-solid fa-location-dot fa-6x"
+                                            className="fa-solid fa-location-dot fa-6x"
                                             style={{color: "#080c34"}}
-                                        ></i>
+                                        />
                                     </p>
                                 </div>
                                 <div class="text-center">
                                     <h2>Address</h2>
                                     <p>
-                                        Sudarshana Maha Vidyalaya, Udabadalawa, Kurunagala,<br></br>{" "}
+                                        Sudarshana Maha Vidyalaya, Udabadalawa, Kurunagala,<br/>
                                         Sri lanka
                                     </p>
                                 </div>
@@ -51,9 +51,9 @@ function Contact() {
                                 <div class=" d-flex align-items-center justify-content-center">
                                     <p>
                                         <i
-                                            class="fa-solid fa-circle-phone fa-6x"
+                                            className="fa-solid fa-circle-phone fa-6x"
                                             style={{color: "#080c34"}}
-                                        ></i>
+                                        />
                                     </p>
                                 </div>
                                 <div class="text-center">
@@ -74,9 +74,9 @@ function Contact() {
                                 <div class="d-flex align-items-center justify-content-center">
                                     <p>
                                         <i
-                                            class="fa-solid fa-paper-plane fa-6x"
+                                            className="fa-solid fa-paper-plane fa-6x"
                                             style={{color: "#080c34"}}
-                                        ></i>
+                                        />
                                     </p>
                                 </div>
                                 <div class="text-center">
@@ -97,15 +97,15 @@ function Contact() {
                                 <div class="d-flex align-items-center justify-content-center">
                                     <p>
                                         <i
-                                            class="fa-solid fa-globe fa-6x"
+                                            className="fa-solid fa-globe fa-6x"
                                             style={{color: "#080c34"}}
-                                        ></i>
+                                        />
                                     </p>
                                 </div>
                                 <div class="text-center">
                                     <h2>Website</h2>
                                     <p>
-                                        <a href="#">
+                                        <a href="/">
                                             <font color="white">Sudarshana.sch.lk</font>
                                         </a>
                                     </p>
@@ -120,12 +120,13 @@ function Contact() {
                     <div className="col-md-6 p-0">
                         <div className="map-responsive">
                             <iframe
+                                title="sudharshanaMV"
                                 width="100%"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8142.808052399231!2d80.32992892833444!3d7.52040376412379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3308de8012977%3A0x617485e80af49746!2sSudarshana%20Maha%20Vidyalaya!5e0!3m2!1sen!2slk!4v1654807660397!5m2!1sen!2slk"
-                                allowfullscreen="true"
+                                allowFullScreen="true"
                                 loading="lazy"
                                 className="vh-100"
-                            ></iframe>
+                            />
                         </div>
                     </div>
                     <div className="col-md-6 p-0 vh-100 d-flex align-items-center">

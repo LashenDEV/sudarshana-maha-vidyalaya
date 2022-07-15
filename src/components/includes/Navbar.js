@@ -13,11 +13,11 @@ function Navbar() {
                         src={Crest}
                         alt="" width="60" height="60"/>
                     <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3></Link>
-                <a className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                <div className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </a>
+                    <span className="navbar-toggler-icon"/>
+                </div>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">

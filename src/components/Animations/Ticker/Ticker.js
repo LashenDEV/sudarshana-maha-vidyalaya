@@ -18,8 +18,13 @@ const Ticker = ({className, ...rest}) => {
                         }}
                         delayedCall
                     >
-                        <h1 className={className}
-                            style={{fontFamily: 'Roboto Mono', fontWeight: "500", fontSize: "100px", color: "rgb(55 44 27)"}} ref={countUpRef}/>
+                        <p className={className}
+                           style={{
+                               fontFamily: 'Roboto Mono',
+                               fontWeight: "500",
+                               fontSize: "100px",
+                               color: "rgb(55 44 27)"
+                           }} ref={countUpRef}/>
                     </VisibilitySensor>
                 );
             }}

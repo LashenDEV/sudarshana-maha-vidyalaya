@@ -32,25 +32,29 @@ function App() {
         !loading && (
             <Router>
                 <ScrollToTop/>
-                    <div>
-                        <Navbar/>
-                        <Routes>
-                            <Route path="/sudarshana-maha-vidyalaya" element={<Home/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/about" element={<About/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/news_events" element={<NewsEvents/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/contact" element={<Contact/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/history" element={<History/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/gallery" element={<Gallery/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPage" element={<GalleryPage/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPageSportmeet" element={<GalleryPageSportmeet/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPageartday" element={<GalleryPageartday/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPagescience" element={<GalleryPagescience/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPagechildrensday" element={<GalleryPagechildrensday/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPageEnglishday" element={<GalleryPageEnglishday/>}/>
-                            <Route path="/sudarshana-maha-vidyalaya/galleryPageEnvironmentday" element={<GalleryPageEnvironmentday/>}/>
-                         </Routes>
-                        <Footer/>
-                    </div>
+                <div style={{backgroundColor: "aliceblue"}}>
+                    <Navbar/>
+                    <Routes>
+                        <Route path="/sudarshana-maha-vidyalaya" element={<Home/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/about" element={<About/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/news_events" element={<NewsEvents/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/contact" element={<Contact/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/history" element={<History/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/gallery" element={<Gallery/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPage" element={<GalleryPage/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPageSportmeet"
+                               element={<GalleryPageSportmeet/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPageartday" element={<GalleryPageartday/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPagescience" element={<GalleryPagescience/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPagechildrensday"
+                               element={<GalleryPagechildrensday/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPageEnglishday"
+                               element={<GalleryPageEnglishday/>}/>
+                        <Route path="/sudarshana-maha-vidyalaya/galleryPageEnvironmentday"
+                               element={<GalleryPageEnvironmentday/>}/>
+                    </Routes>
+                    <Footer/>
+                </div>
             </Router>
         )
     );

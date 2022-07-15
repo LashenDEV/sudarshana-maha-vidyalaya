@@ -2,11 +2,12 @@ import React from "react";
 
 function Welcome() {
     return (
-        <div className="col-md-12 container">
+        <div className="col-md-12 p-5">
             <div className="row">
                 <div className="col-md-8 pb-5 px-5">
-                    <h3>Welcome !</h3>
-                    <p className="lh-lg paragraph"> Sudarshan Maha Vidyalaya, Galle is a shining star in the sourthern
+                    <h2>WELCOME!</h2>
+                    <p className="lh-lg paragraph lead pb-4"> Sudarshan Maha Vidyalaya, Galle is a shining star in the
+                        sourthern
                         sky and hoisting her flag
                         high
                         into the air. It was founded in 1896 as a missionary school and later it was converted into a
@@ -26,7 +27,7 @@ function Welcome() {
                         7 non academic staff..</p>
                     <div className="row text-center">
                         <div className="col-md-6">
-                            <div className="card p-4 h-100 d-flex align-items-center">
+                            <div className="card p-4 h-100 d-flex align-items-center border-0">
                                 <h3 className="d-flex justify-content-center align-items-center">
                                     <i className="fa-duotone fa-crosshairs fa-2x me-3"></i>
                                     Our Vision
@@ -38,9 +39,9 @@ function Welcome() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="card p-4 h-100">
+                            <div className="card p-4 h-100 border-0">
                                 <h3 className="d-flex justify-content-center align-items-center"><i
-                                    className="fa-duotone fa-eye fa-2x me-3"></i> Our Mission</h3>
+                                    className="fa-duotone fa-eye fa-2x me-3"/> Our Mission</h3>
                                 <br/>
                                 <p>
                                     පිරිපුන් දරුවෙක් බිහි කළ හැකි ඵලදායි ඉගෙනුම් පරිසරයක් නිර්මාණය කිරීම. <br/><br/>
@@ -54,39 +55,46 @@ function Welcome() {
 
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <div className="card shadow p-3 mb-5 bg-body rounded">
-                        <div className="card-body">
-                            <div className="d-flex justify-content-center mb-4">
-                                <img className="align-items-center"
-                                     src="https://www.ais.lk/wp-content/uploads/2013/01/HP2.jpg" alt="" width="120px"
-                                     height="120px"/>
-                            </div>
+                <div className="col-md-4 mb-5 d-flex flex-column align-items-center">
+                    <div className="d-flex justify-content-center mb-4 position-relative"
+                         style={{top: "90px", zIndex: "2"}}>
+                        <img className="align-items-center"
+                             src="https://www.ais.lk/wp-content/uploads/2013/01/HP2.jpg" alt="" width="140px"
+                             height="140px"/>
+                    </div>
+                    <div className="card shadow p-3 pt-5 bg-body rounded">
+                        <div className="card-body pt-5">
                             <h3>Headmaster's Message</h3>
-                            <p className="paragraph">
-                                It is with great pleasure that I welcome you to our website.
+                            <p className="paragraph pt-2">
+                                <i>
+                                    It is with great pleasure that I welcome you to our website.
 
-                                As the principal of Dr.Richard Pathirana College I am immensly impressed by the staff
-                                provide an excellent education for our students.
+                                    As the principal of Dr.Richard Pathirana College I am immensly impressed by the
+                                    staff
+                                    provide an excellent education for our students.
 
-                                Being one of the leading secondary school in Galle educational sector Dr.Richard
-                                Pathirana
-                                College has produced well educated and worthy citizens to the nation which reflects our
-                                moto
-                                "education for full filled life".
+                                    Being one of the leading secondary school in Galle educational sector Dr.Richard
+                                    Pathirana
+                                    College has produced well educated and worthy citizens to the nation which reflects
+                                    our
+                                    moto
+                                    "education for full filled life".
 
-                                I hope our students will take this oppotunity to expose their tallents to the world.
+                                    I hope our students will take this oppotunity to expose their tallents to the world.
 
-                                Through out the glourious history of 124 years the school has been able to achive many
-                                valuable targets which were affectionately back by the school community
+                                    Through out the glourious history of 124 years the school has been able to achive
+                                    many
+                                    valuable targets which were affectionately back by the school community
 
-                                I appriciate the effort of the school web team for designing and reloanching this
-                                website
-                                that full fill a long term necassity.
+                                    I appriciate the effort of the school web team for designing and reloanching this
+                                    website
+                                    that full fill a long term necassity.
 
-                                May this website be able to enhance the granduer of the school.
+                                    May this website be able to enhance the granduer of the school.
+                                </i>
                             </p>
-                            <p className="text-end"><b> P.D.K. Vidanapathirana</b></p>
+                            <i>
+                                <p className="text-end"><b> P.D.K. Vidanapathirana</b></p></i>
                         </div>
                     </div>
                 </div>

@@ -10,15 +10,20 @@ function WebDirections() {
                     <div className="row text-white">
                         <div className="col-md-6 p-5 paragraph">
                             <h1>Learning Online</h1>
-                            <p>Put forward in 2020, in order to facilitate the education of the students during the pandemic
-                                prevailing throughout the world, the Learning Management System has grown to be more than
+                            <p>Put forward in 2020, in order to facilitate the education of the students during the
+                                pandemic
+                                prevailing throughout the world, the Learning Management System has grown to be more
+                                than
                                 just a means for live conferencing of classes. The system acts as a platform for the
-                                teachers and students to communicate effectively during the education process and it also
+                                teachers and students to communicate effectively during the education process and it
+                                also
                                 expedites the administration function of the College, keeping records of every
                                 stakeholder.</p>
                             <div className="d-flex justify-content-around align-items-center">
                                 <img src={Logo} width="70%" height="60%" alt=""/>
-                                <button className="btn btn-danger h-100 btn-lg">Visit Now</button>
+                                <button className="btn btn-danger h-100 btn-lg"><i
+                                    className="fa-duotone fa-circle-nodes pe-2"/>Visit Now
+                                </button>
                             </div>
                         </div>
                         <div className="col-md-6 p-5 link-container">
@@ -43,7 +48,7 @@ function WebDirections() {
                                     <a href="https://www.doenets.lk/"><span>Examination</span></a>
                                 </div>
                                 <div className="wrapper link My-2">
-                                    <a href="#"><span>Data Management Portal</span></a>
+                                    <a href="/"><span>Data Management Portal</span></a>
                                 </div>
                             </div>
                         </div>

@@ -6,8 +6,9 @@ import club1 from "../../images/home page/club1.jpg"
 import club2 from "../../images/home page/club2.jpg"
 import sport1 from "../../images/home page/sport1.png"
 import sport2 from "../../images/home page/sport2.jpg"
+
 function Features() {
-    return (<div style={{backgroundColor: "#fafafa"}}>
+    return (<div>
         <div className="col-12 container">
             <div className="d-flex py-5 align-items-center feature-container justify-content-between">
                 <div className="col-6 d-flex flex-column align-items-center justify-content-center feature_description">
@@ -24,18 +25,18 @@ function Features() {
                     </div>
                 </div>
                 <div className="col-6 d-flex feature_image_container">
-                    <img className="image1"
+                    <img className="image1" alt="academic1"
                          src={academic1}/>
-                    <img className="image2"
+                    <img className="image2" alt="academic2"
                          src={academic2}/>
                 </div>
             </div>
 
             <div className="d-flex py-5 align-items-center feature-container justify-content-between">
                 <div className="col-6 d-flex feature_image_container">
-                    <img className="image1"
+                    <img className="image1" alt="club1"
                          src={club1}/>
-                    <img className="image2"
+                    <img className="image2" alt="club2"
                          src={club2}/>
                 </div>
                 <div className="col-6 d-flex flex-column align-items-center justify-content-center feature_description">
@@ -65,9 +66,9 @@ function Features() {
                     </div>
                 </div>
                 <div className="col-6 d-flex feature_image_container">
-                    <img className="image1"
+                    <img className="image1" alt="sport1"
                          src={sport1}/>
-                    <img className="image2"
+                    <img className="image2" alt="sport2"
                          src={sport2}/>
                 </div>
             </div>

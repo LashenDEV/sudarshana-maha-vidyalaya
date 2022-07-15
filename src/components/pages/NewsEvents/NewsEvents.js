@@ -131,8 +131,6 @@ function NewsEvents() {
                     </div>
                 </div>
             </div>
-
-
             <div className="col-md-12">
                 <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
                     <div className="col-mmb koheda thiyennneeejhsrfjh;kdsaflhseyr-12">
@@ -227,7 +225,6 @@ function NewsEvents() {
                 </div>
             </div>
         </div>
-
     )
 }
 
