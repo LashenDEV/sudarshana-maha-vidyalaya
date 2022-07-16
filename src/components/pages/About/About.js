@@ -23,15 +23,17 @@ function About() {
                     />
                 </div>
                 <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                    <p class="display-1 animate__animated animate__fadeInLeft d-none d-md-block" style={{fontSize: "8rem"}}>
+                    <p class="display-1 animate__animated animate__fadeInLeft d-none d-md-block"
+                       style={{fontSize: "8rem"}}>
                         About
                     </p>
-                    <p className="display-1 animate__animated animate__fadeInLeft d-block d-md-none " style={{fontSize: "6rem"}}>
+                    <p className="display-1 animate__animated animate__fadeInLeft d-block d-md-none "
+                       style={{fontSize: "6rem"}}>
                         About
                     </p>
                 </div>
             </div>
-            <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor: "#FFFACD"}}>
+            <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor: "rgba(233,199,127,0.87)"}}>
                 <div className="w-50 text-center animate__animated animate__zoomIn">
                     <h1>About Sudarshana Maha Vidyalaya</h1>
                     <p>
@@ -53,7 +55,7 @@ function About() {
             </div>
             {/* start profile section */}
             <div className="col-md-12 container-fluid">
-                <div className="row pb-5 p-5">
+                <div className="row py-5 px-md-5">
                     <div className="col-md-4">
                         <div className="d-flex justify-content-center">
                             <div style={{width: "100%", height: "250px"}}>
@@ -71,7 +73,7 @@ function About() {
                                 <h3 className="d-flex justify-content-center align-items-center py-3">
                                     School Profile
                                 </h3>
-                                <p className="paragraph">
+                                <p>
                                     <b>School Name: </b> Sudarshana maha Vidyalaya <br/>
                                     <br/>
                                     <b> Address :</b> Passara, Badulla <br/>
