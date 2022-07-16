@@ -1,3 +1,7 @@
+li .nav-link{
+    color: #000000 !important;
+}
+
 @media only screen and (min-width: 1000px) {
     li .nav-link:after {
         content: "";

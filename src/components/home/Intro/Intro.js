@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
     return (
-        <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor: "#FFFACD"}}>
+        <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor: "rgba(233,199,127,0.87)"}}>
             <div className="w-50 text-center animate__animated animate__zoomIn">
                 <h2>An Experience That Lasts a Lifetime.</h2>
                 <p>Since 1835, The Sudarshana Maha Vidyalaya has been devoted to producing gentlemen capable of

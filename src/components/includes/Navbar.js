@@ -6,12 +6,12 @@ import Crest from '../images/logo/crest.png';
 function Navbar() {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "rgba(233,199,127,0.87)"}}>
             <div className="container-fluid my-3">
-                <Link to='/' className="navbar-brand d-flex align-items-center">
+                <Link to='/' className="navbar-brand d-flex align-items-center ps-md-4">
                     <img
                         src={Crest}
-                        alt="" width="60" height="60"/>
+                        alt="" width="60" height="60" className="border-2"/>
                     <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3>
                     <h5 className="ps-2 d-md-none d-block m-0">Sudarshana M.V</h5>
                 </Link>
