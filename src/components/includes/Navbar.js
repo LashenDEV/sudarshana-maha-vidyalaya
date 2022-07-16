@@ -14,30 +14,30 @@ function Navbar() {
                         alt="" width="60" height="60"/>
                     <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3></Link>
                 <div className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                     aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"/>
                 </div>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink to='/sudarshana-maha-vidyalaya/'>Home</NavLink>
+                            <NavLink to='/'>Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/sudarshana-maha-vidyalaya/about'>About</NavLink>
+                            <NavLink to='/about'>About</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/sudarshana-maha-vidyalaya/news_events'>News &
+                            <NavLink to='/news_events'>News &
                                 Events</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/sudarshana-maha-vidyalaya/history'>History</NavLink>
+                            <NavLink to='/history'>History</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/sudarshana-maha-vidyalaya/gallery'>Gallery</NavLink>
+                            <NavLink to='/gallery'>Gallery</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/sudarshana-maha-vidyalaya/contact'>Contact Us</NavLink>
+                            <NavLink to='/contact'>Contact Us</NavLink>
                         </li>
                     </ul>
                 </div>

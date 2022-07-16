@@ -35,14 +35,14 @@ function App() {
                 <div style={{backgroundColor: "aliceblue"}}>
                     <Navbar/>
                     <Routes>
-                        <Route path="/sudarshana-maha-vidyalaya" element={<Home/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/about" element={<About/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/news_events" element={<NewsEvents/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/contact" element={<Contact/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/history" element={<History/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/gallery" element={<Gallery/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPage" element={<GalleryPage/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPageSportmeet"
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/about" element={<About/>}/>
+                        <Route path="/news_events" element={<NewsEvents/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/history" element={<History/>}/>
+                        <Route path="/gallery" element={<Gallery/>}/>
+                        <Route path="/galleryPage" element={<GalleryPage/>}/>
+                        <Route path="/galleryPageSportmeet"
                                element={<GalleryPageSportmeet/>}/>
                         <Route path="/sudarshana-maha-vidyalaya/galleryPageartday" element={<GalleryPageartday/>}/>
                         <Route path="/sudarshana-maha-vidyalaya/galleryPagescience" element={<GalleryPagescience/>}/>
