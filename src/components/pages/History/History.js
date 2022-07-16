@@ -14,7 +14,11 @@ function History() {
             />
           </div>
           <div class="card-img-overlay d-flex align-items-center justify-content-center">
-            <p class="display-1 animate__animated animate__fadeInLeft" style={{ fontSize: "8rem" }}>
+            <p className="display-1 animate__animated animate__fadeInLeft d-none d-md-block" style={{fontSize: "8rem"}}>
+              History
+            </p>
+            <p className="display-1 animate__animated animate__fadeInLeft d-block d-md-none "
+               style={{fontSize: "6rem"}}>
               History
             </p>
           </div>

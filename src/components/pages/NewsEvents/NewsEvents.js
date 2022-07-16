@@ -25,14 +25,23 @@ function NewsEvents() {
                     />
                 </div>
                 <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                    <p className="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
+                    <p className="display-1 animate__animated animate__fadeInLeft d-none d-md-block"
+                       style={{fontSize: "8rem"}}>
+                        News & Events
+                    </p>
+                    <p className="display-1 animate__animated animate__fadeInLeft d-md-none d-none d-sm-block"
+                       style={{fontSize: "5rem"}}>
+                        News & Events
+                    </p>
+                    <p className="display-1 animate__animated animate__fadeInLeft  d-sm-none d-xs-block"
+                       style={{fontSize: "2rem"}}>
                         News & Events
                     </p>
                 </div>
             </div>
 
             <div className="col-md-12">
-                <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
+                <div className="row row-cols-1 row-cols-md-4 g-4 mb-5 mt-3 mx-1">
                     <div className="col-mb-12">
                         <div className="card h-100 mb-3 border-dark" style={{backgroundColor: "#c49647"}}>
                             <div className="card-header text-white mb-3" style={{backgroundColor: "#080c34"}}>
@@ -132,8 +141,8 @@ function NewsEvents() {
                 </div>
             </div>
             <div className="col-md-12">
-                <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
-                    <div className="col-mmb koheda thiyennneeejhsrfjh;kdsaflhseyr-12">
+                <div className="row row-cols-1 row-cols-md-4 g-4 mb-5 mx-1">
+                    <div className="col-mb-12">
                         <div className="card h-100 card mb-3 border-dark" style={{backgroundColor: "#c49647"}}>
                             <div className="card-header text-white mb-3" style={{backgroundColor: "#080c34"}}>
                                 <h5 className="card-title text-center">English Day was held on 06/03.</h5>

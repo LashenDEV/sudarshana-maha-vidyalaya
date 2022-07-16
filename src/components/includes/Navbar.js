@@ -7,12 +7,14 @@ function Navbar() {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid ms-5 my-3">
+            <div className="container-fluid my-3">
                 <Link to='/' className="navbar-brand d-flex align-items-center">
                     <img
                         src={Crest}
                         alt="" width="60" height="60"/>
-                    <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3></Link>
+                    <h3 className="ps-2 d-none d-md-block m-0">Sudarshana Maha Vidyalaya</h3>
+                    <h5 className="ps-2 d-md-none d-block m-0">Sudarshana M.V</h5>
+                </Link>
                 <div className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                      aria-expanded="false" aria-label="Toggle navigation">

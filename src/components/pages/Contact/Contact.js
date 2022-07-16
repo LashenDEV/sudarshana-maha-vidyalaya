@@ -14,11 +14,30 @@ function Contact() {
                         />
                     </div>
                     <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                        <p className="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
+                        <p className="display-1 animate__animated animate__fadeInLeft d-none d-md-block"
+                           style={{fontSize: "8rem"}}>
                             <center>Contact Us</center>
                             <hr/>
-                            <p style={{fontSize: "1rem"}}>
-                                &nbsp;&nbsp;&nbsp;Want to get in touch? We'd love to hear from
+                            <p className="text-center" style={{fontSize: "1rem"}}>
+                                Want to get in touch? We'd love to hear from
+                                you. Here's how you can reach us...
+                            </p>
+                        </p>
+                        <p className="display-1 animate__animated animate__fadeInLeft d-md-none d-none d-sm-block"
+                           style={{fontSize: "5rem"}}>
+                            <center>Contact Us</center>
+                            <hr/>
+                            <p className="text-center" style={{fontSize: "1rem"}}>
+                                Want to get in touch? We'd love to hear from
+                                you. Here's how you can reach us...
+                            </p>
+                        </p>
+                        <p className="display-1 animate__animated animate__fadeInLeft  d-sm-none d-xs-block"
+                           style={{fontSize: "3rem"}}>
+                            <center>Contact Us</center>
+                            <hr/>
+                            <p className="text-center" style={{fontSize: "1rem"}}>
+                                Want to get in touch? We'd love to hear from
                                 you. Here's how you can reach us...
                             </p>
                         </p>

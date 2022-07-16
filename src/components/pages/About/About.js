@@ -14,7 +14,7 @@ function About() {
     return (
         <div>
             <div className="card text-white">
-                <div w-100 style={{height: "500px"}}>
+                <div className="w-100" style={{height: "500px"}}>
                     <img
                         src={about}
                         class="card-img"
@@ -23,12 +23,15 @@ function About() {
                     />
                 </div>
                 <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                    <p class="display-1 animate__animated animate__fadeInLeft" style={{fontSize: "8rem"}}>
+                    <p class="display-1 animate__animated animate__fadeInLeft d-none d-md-block" style={{fontSize: "8rem"}}>
+                        About
+                    </p>
+                    <p className="display-1 animate__animated animate__fadeInLeft d-block d-md-none " style={{fontSize: "6rem"}}>
                         About
                     </p>
                 </div>
             </div>
-            <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor:"#FFFACD"}}>
+            <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor: "#FFFACD"}}>
                 <div className="w-50 text-center animate__animated animate__zoomIn">
                     <h1>About Sudarshana Maha Vidyalaya</h1>
                     <p>
