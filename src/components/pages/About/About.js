@@ -33,7 +33,8 @@ function About() {
                     </p>
                 </div>
             </div>
-            <div className="border-none d-flex justify-content-center py-5" style={{backgroundColor: "rgba(233,199,127,0.87)"}}>
+            <div className="border-none d-flex justify-content-center py-5"
+                 style={{backgroundColor: "rgba(233,199,127,0.87)"}}>
                 <div className="w-50 text-center animate__animated animate__zoomIn">
                     <h1>About Sudarshana Maha Vidyalaya</h1>
                     <p>
@@ -178,7 +179,7 @@ function About() {
                                     <h3 className="d-flex justify-content-center align-items-center">
                                         SCHOOL CREST
                                     </h3>
-                                    <div style={{width: "300px", height: "250px"}}>
+                                    <div style={{width: "300px", height: "300px"}}>
                                         <img
                                             className="align-items-center"
                                             src={crest}
