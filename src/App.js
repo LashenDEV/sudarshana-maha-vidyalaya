@@ -44,13 +44,13 @@ function App() {
                         <Route path="/galleryPage" element={<GalleryPage/>}/>
                         <Route path="/galleryPageSportmeet"
                                element={<GalleryPageSportmeet/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPageartday" element={<GalleryPageartday/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPagescience" element={<GalleryPagescience/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPagechildrensday"
+                        <Route path="/galleryPageartday" element={<GalleryPageartday/>}/>
+                        <Route path="/galleryPagescience" element={<GalleryPagescience/>}/>
+                        <Route path="/galleryPagechildrensday"
                                element={<GalleryPagechildrensday/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPageEnglishday"
+                        <Route path="/galleryPageEnglishday"
                                element={<GalleryPageEnglishday/>}/>
-                        <Route path="/sudarshana-maha-vidyalaya/galleryPageEnvironmentday"
+                        <Route path="/galleryPageEnvironmentday"
                                element={<GalleryPageEnvironmentday/>}/>
                     </Routes>
                     <Footer/>
