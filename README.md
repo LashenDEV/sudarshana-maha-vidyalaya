@@ -14,5 +14,8 @@ about the school through this website._
 ```bash
 npm install
 ```
+```bash
+npm start
+```
 
 Great, everything is set up! 🎉
