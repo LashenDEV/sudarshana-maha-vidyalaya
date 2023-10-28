@@ -30,7 +30,7 @@ code {
 .loading-blue {
     -webkit-animation: sk-scaleout 1s infinite ease-in-out;
     animation: sk-scaleout 1s infinite ease-in-out;
-    background-color: #080c34;
+    background-color: #0a0d31;
     border-radius: 100%;
     height: 6rem;
     width: 6rem;
@@ -39,7 +39,7 @@ code {
 .loading-gold {
     -webkit-animation: sk-scaleout 1s infinite ease-in-out;
     animation: sk-scaleout 1s infinite ease-in-out;
-    background-color: #c49647;
+    background-color: #cfa151;
     border-radius: 100%;
     height: 3rem;
     width: 3rem;
@@ -59,11 +59,11 @@ code {
 }
 
 .gold-heading {
-    color: #c49647 !important;
+    color: #d4a759 !important;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .link-light:hover{
-    color: #c49647 !important;
+    color: #bd811a !important;
 }
